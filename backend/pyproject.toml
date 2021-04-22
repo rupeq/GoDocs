@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["artemderev@mail.ru"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+mypy = "^0.800"
+Flask-PyMongo = "^2.3.0"
+python-dotenv = "^0.15.0"
+Flask-Cors = "^3.0.10"
+PyJWT = "^2.0.1"
+Flask-SocketIO = "^5.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
